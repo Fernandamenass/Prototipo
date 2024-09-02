@@ -1,10 +1,30 @@
 body {
     margin: 0;
     background-color: #ece0bb; 
+    font-family: 'Chalkdusk', sans-serif;
 }
 
-.CentrarTodo{
-    justify-content:center;
+.container {
+    margin-top: 50px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.col {
+    background-color: #bd8c5c;
+    border: 1px solid #a8794a;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.col:hover {
+    background-color: #a8794a;
+    transform: scale(1.05);
 }
 
 .contenedor {
@@ -16,13 +36,6 @@ body {
     margin-bottom: 0px;
     margin-right: 90px;
     justify-content: flex-end;
-}
-
-.padre {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .Medio{
@@ -100,13 +113,13 @@ body {
 
 .divCafeAbajo{
     background-color: #a74314;
-    height: 1080px;
+    height: 1180px;
     width: 15%;
 }
 
 .divBlanco{
     background-color: rgb(255, 255, 255);
-    height: 1080px;
+    height: 1180px;
     width: 22%;
     border-radius: 15px;
     margin-left: 0;
@@ -126,6 +139,7 @@ body {
     color: #8a211b;
     text-align: center;
     margin: 30px ; 
+    font-family: 'Shadows Into Light', sans-serif;
 }
 
 .form-section {
@@ -163,7 +177,7 @@ body {
 
 .cuadAmarillo{
     width: 40%;
-    height: 400px;
+    height: 410px;
     background-color: #ff8a00;
     position: relative;
     margin-bottom: 3%; 
@@ -172,7 +186,7 @@ body {
 
 .cuadCafe{
     width: 55%;
-    height: 400px;
+    height: 410px;
     background-color: #bb6f3a;
     position: relative;
     margin-bottom: 3%;
