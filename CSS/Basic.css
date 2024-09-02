@@ -19,6 +19,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
+    font-family: 'Shadows Into Light', cursive;
     transition: transform 0.2s, background-color 0.2s;
 }
 
@@ -113,13 +114,13 @@ body {
 
 .divCafeAbajo{
     background-color: #a74314;
-    height: 1180px;
+    height: 1080px;
     width: 15%;
 }
 
 .divBlanco{
     background-color: rgb(255, 255, 255);
-    height: 1180px;
+    height: 1080px;
     width: 22%;
     border-radius: 15px;
     margin-left: 0;
@@ -165,6 +166,7 @@ body {
     color: #623a17;
     text-align: center;
     margin: 0; 
+    font-family: 'Playfair Display';
 }
 
 .cuadVerde{
