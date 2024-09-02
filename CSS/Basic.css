@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    background-color: #ece0bb; 
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 90px;
+    justify-content: flex-end;
+}
+
+.ContenedorFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    justify-content: flex-end;
+}
+
+.divVerde{
+    background-color: #395846;
+    margin-top: 40px;
+    height: 50px;
+    width: 600px;
+    border-radius: 15px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divCafe{
+    background-color: #a74314;
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divCafeGrande{
+    background-color: #a74314;
+    height: 150px;
+    width: 960px;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    justify-content: center;
+}
+
+.In{
+    color: #ece0bb;
+}
+
+.vl {
+    border-left: 6px solid rgb(255, 255, 255);
+    margin: 0px;
+    height: 65px;
+    border-radius: 3px;
+}
+
+.divCafeAbajo{
+    background-color: #a74314;
+    height: 900px;
+    width: 170px;
+}
+
+.divBlanco{
+    background-color: rgb(255, 255, 255);
+    height: 900px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.horizontal-line {
+    height: 15px;
+    background-color: #a74314;
+    width: 860px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.Look{
+    font-size: 70px;
+    color: #8a211b;
+    text-align: center;
+    margin: 30px ; 
+}
+
+.form-section {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    margin: 20px; /* Ajusta el margen según sea necesario */
+}
+
+.form-section input[type="text"] {
+    width: 80%; /* Ancho del campo de búsqueda */
+    height: 40px; /* Altura del campo de búsqueda */
+    font-size: 20px; /* Tamaño del texto */
+    padding: 0 10px; /* Espaciado interno a los lados del campo de búsqueda */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    border-radius: 30px; /* Bordes redondeados */
+    border-color: #bd8c5c; /* Color del borde */
+    border-width: 3px; /* Grosor del borde */
+    border-style: solid; /* Estilo del borde */
+}
+
+.SecondLet{
+    font-size: 45px;
+    color: #623a17;
+    text-align: center;
+    margin: 0; 
+}
+
+.cuadVerde{
+    width: 50px;
+    height: 50px;
+    background-color: #395846;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.cuadAmarillo{
+    width: 350px;
+    height: 450px;
+    background-color: #ff8a00;
+    position: relative;
+}
+
+.cuadCafe{
+    width: 450px;
+    height: 450px;
+    background-color: #bb6f3a;
+    position: relative;
+}

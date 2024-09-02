@@ -1,0 +1,45 @@
+nav{
+    max-width: 4000px;
+    margin: 30px;
+    background-color: #bd8c5c;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: lavender;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: pink;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: thistle;
+}
+.menu-horizontal > li:hover .menu-vertical{
+    display: block;
+    background-color: #d8b4e2;
+}
+.menu-vertical > li:hover{
+    background-color: #800080;;
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    background-color: #d8b4e2;
+}
